@@ -1,9 +1,9 @@
+class kTo_Fahrenheit{
 
-class cTo_Fahrenheit {
-  int? C;
   static final List<int> guessCountList = [];
   double doGuess(double num) {
-    var F = 1.80*(num);
+    var F = 1.8*(num - 273) + 32
+    ;
     return F;
   }
 }

@@ -1,9 +1,9 @@
+class fTo_Celsius{
 
-class cTo_Fahrenheit {
-  int? C;
   static final List<int> guessCountList = [];
   double doGuess(double num) {
-    var F = 1.80*(num);
-    return F;
+    var C = (num-32)/1.80
+    ;
+    return C;
   }
 }
